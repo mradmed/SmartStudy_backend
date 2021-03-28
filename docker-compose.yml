@@ -1,0 +1,9 @@
+version: '3.3'
+
+services: 
+        back-app:
+              build: 
+                    context: ./
+                    dockerfile: Dockerfile
+              ports: 
+                - "54001:3000"
